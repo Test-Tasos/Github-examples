@@ -73,6 +73,12 @@ git checkout name
 ## Remotes
 
 ## Stashing
+```sh
+git stash save readmechanges 
+git stash list
+git stash pop
+git stash apply (will pop the last one)
+```
 
 ## Merging
 
