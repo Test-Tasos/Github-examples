@@ -40,6 +40,10 @@ we might need to add it
 eval 'ssh-agent
 ssh-add key (without the extension)
 ```
+3. Github CLI
+
+install the CLI
+
 ## Commits
 when we want to commit code git commit will open up the commit code editor of choice
 ```sh
@@ -54,7 +58,18 @@ you will need to create a personal access token (PAT)
 https://github.com/settings/tokens and you will use it a s password
 
 ## Branches
-
+list of branches
+```sh
+git branch
+```
+create a new branch
+```sh
+git branch name
+```
+checkout that branch
+```sh
+git checkout name
+```
 ## Remotes
 
 ## Stashing
